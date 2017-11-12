@@ -2,7 +2,7 @@
 // Write your solution in this file!
 var customerName = 'bob';
 function upperCaseCustomerName() {
-	return customerName.toUpperCase();
+	customerName.toUpperCase();
 }
 function setBestCustomer() {
   bestCustomer = 'not bob';
@@ -13,4 +13,7 @@ function overwriteBestCustomer() {
 const leastFavoriteCustomer = 'Oscar';
 function changeLeastFavoriteCustomer() {
   leastFavoriteCustomer = 'Sally';
+}
+function attemptTwoFavoriteCustomers() {
+  
 }
